@@ -1,0 +1,48 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+  text-align: center; 
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+#main-container {
+  max-width: 600px;
+  margin: 50px auto;
+  cursor: pointer;
+}
+
+
+.row1, .row2, .row3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  padding: 25px 30px;
+  background-color: teal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  border-radius: 2px;
+}
+
+#who-won {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
